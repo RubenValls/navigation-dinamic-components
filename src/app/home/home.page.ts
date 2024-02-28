@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  headerConfig = {
+    title: 'Navigation with Dinamic Components'
+  }
+
   constructor() {}
 
 }
