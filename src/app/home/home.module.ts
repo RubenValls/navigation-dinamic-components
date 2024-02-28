@@ -6,6 +6,8 @@ import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
 import { CustomHeaderComponent } from './components/custom-header/custom-header.component';
+import { CustomNavigationSegmentsComponent } from './components/custom-navigation-segments/custom-navigation-segments.component';
+import { CustomFooterComponent } from './components/custom-footer/custom-footer.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { CustomHeaderComponent } from './components/custom-header/custom-header.
   ],
   declarations: [
     HomePage,
-    CustomHeaderComponent
+    CustomHeaderComponent,
+    CustomNavigationSegmentsComponent,
+    CustomFooterComponent,
   ]
 })
 export class HomePageModule {}

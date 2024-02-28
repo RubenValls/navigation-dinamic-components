@@ -11,6 +11,10 @@ export class HomePage {
     title: 'Navigation with Dinamic Components'
   }
 
+  footerConfig = {
+    title: 'Navigation with Dinamic Components Footer'
+  }
+
   constructor() {}
 
 }

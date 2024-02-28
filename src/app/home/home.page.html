@@ -1,9 +1,6 @@
 <app-custom-header [config]="headerConfig"></app-custom-header>
-
 <ion-content [fullscreen]="true">
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <app-custom-navigation-segments></app-custom-navigation-segments>
+  <router-outlet></router-outlet>
 </ion-content>
+<app-custom-footer [config]="footerConfig"></app-custom-footer>

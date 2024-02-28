@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, ViewEncapsulation } from '@angular/core';
 
 export interface customHeaderInterface {
   title: string;
@@ -8,6 +8,7 @@ export interface customHeaderInterface {
   selector: 'app-custom-header',
   templateUrl: './custom-header.component.html',
   styleUrls: ['./custom-header.component.scss'],
+  encapsulation: ViewEncapsulation.None,
 })
 export class CustomHeaderComponent {
 
