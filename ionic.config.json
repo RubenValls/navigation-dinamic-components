@@ -1,0 +1,7 @@
+{
+  "name": "navigation-dinamic-components",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
